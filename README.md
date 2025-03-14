@@ -93,6 +93,8 @@ rosdep install --from-paths src --ignore-src -r -y
 colcon build
 source install/setup.bash
 ```
+![image](https://github.com/user-attachments/assets/33418569-a9ae-4c9b-8f7d-0c0dcc31f636)
+
 
 Then launch the Gazebo simulation:
 ```bash
@@ -113,5 +115,5 @@ ros2 topic pub /scaled_joint_trajectory_controller/joint_trajectory trajectory_m
 - If joint positions do not update, verify joint_state_publisher and robot_state_publisher are running. 🔄
 
 👥 Repository
-- Universal_Robots_ROS2_Driver - https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver/tree/humble
-- Universal_Robots_ROS2_Gazebo_Simulation - https://github.com/UniversalRobots/Universal_Robots_ROS2_Gazebo_Simulation
+- ![Universal_Robots_ROS2_Driver](https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver/tree/humble)
+- ![Universal_Robots_ROS2_Gazebo_Simulation](https://github.com/UniversalRobots/Universal_Robots_ROS2_Gazebo_Simulation)
