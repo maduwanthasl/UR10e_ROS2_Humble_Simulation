@@ -13,6 +13,9 @@ Ensure you have the following installed:
 - **Git** 📂
 
 ---
+![Screenshot from 2025-03-14 23-09-29](https://github.com/user-attachments/assets/5d15681f-43d5-4f1d-8e78-ed30f543155e)
+
+
 
 ## 🏗️ Step 1: Install Dependencies
 
@@ -100,6 +103,10 @@ Then launch the Gazebo simulation:
 ```bash
 ros2 launch ur_simulation_gazebo ur_sim_control.launch.py
 ```
+![Screenshot from 2025-03-14 23-09-55](https://github.com/user-attachments/assets/16f75714-2c13-489a-a06f-0787e8dd1b9b)
+
+
+
 ## 🎛️ Step 7: Controlling the Robot
 
 - You should now see the UR10e arm in Gazebo. To send commands, use:
