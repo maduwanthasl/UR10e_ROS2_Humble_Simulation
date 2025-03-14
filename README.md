@@ -96,7 +96,7 @@ source install/setup.bash
 
 Then launch the Gazebo simulation:
 ```bash
-ros2 launch ur_gazebo ur_gazebo.launch.py ur_type:=ur10e
+ros2 launch ur_simulation_gazebo ur_sim_control.launch.py
 ```
 ## 🎛️ Step 7: Controlling the Robot
 
