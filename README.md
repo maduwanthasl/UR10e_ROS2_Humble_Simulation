@@ -41,6 +41,7 @@ rosdep update
 ```bash
 mkdir -p ~/Documents/ros2_ur_ws/src
 cd ~/Documents/ros2_ur_ws/src
+colcon build
 ```
 
 
