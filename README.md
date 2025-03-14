@@ -113,5 +113,5 @@ ros2 topic pub /scaled_joint_trajectory_controller/joint_trajectory trajectory_m
 - If joint positions do not update, verify joint_state_publisher and robot_state_publisher are running. 🔄
 
 👥 Repository
-- https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver/tree/humble
-- https://github.com/UniversalRobots/Universal_Robots_ROS2_Gazebo_Simulation
+- Universal_Robots_ROS2_Driver - https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver/tree/humble
+- Universal_Robots_ROS2_Gazebo_Simulation - https://github.com/UniversalRobots/Universal_Robots_ROS2_Gazebo_Simulation
