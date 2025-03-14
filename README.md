@@ -9,7 +9,6 @@ This repository provides a step-by-step guide to installing and running the Univ
 Ensure you have the following installed:
 - **Ubuntu 22.04 or Pop!_OS** 🐧
 - **ROS2 Humble** (Follow the official [ROS2 installation guide](https://docs.ros.org/en/humble/Installation.html)) 🤖
-- **Gazebo and RViz2** (Installed with ROS2 Humble) 🎮
 - **Colcon build system** 🛠️
 - **Git** 📂
 
