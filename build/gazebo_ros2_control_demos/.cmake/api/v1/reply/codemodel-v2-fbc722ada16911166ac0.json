@@ -1,0 +1,133 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-6fc550078ee297f7f266.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "gazebo_ros2_control_demos",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "example_diff_drive::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example_diff_drive-Release-bd557a0897987f8e7ed0.json",
+					"name" : "example_diff_drive",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "example_effort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example_effort-Release-87bef3d1f17657d02c76.json",
+					"name" : "example_effort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "example_gripper::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example_gripper-Release-e0b5d0c81ef58d8db953.json",
+					"name" : "example_gripper",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "example_position::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example_position-Release-8335340adf0bf396de0c.json",
+					"name" : "example_position",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "example_position_pid::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example_position_pid-Release-0c5a6a264cf1f8b97771.json",
+					"name" : "example_position_pid",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "example_tricycle_drive::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example_tricycle_drive-Release-458f6a71ab5e22407c50.json",
+					"name" : "example_tricycle_drive",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "example_velocity::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example_velocity-Release-18deee53adf583bf9382.json",
+					"name" : "example_velocity",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_ros2_control_demos_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_ros2_control_demos_uninstall-Release-fe2415af72011d114d92.json",
+					"name" : "gazebo_ros2_control_demos_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-309d9579bfba2845047a.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/shevi/Documents/ros2_ur_ws/build/gazebo_ros2_control_demos",
+		"source" : "/home/shevi/Documents/ros2_ur_ws/src/gazebo_ros2_control/gazebo_ros2_control_demos"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

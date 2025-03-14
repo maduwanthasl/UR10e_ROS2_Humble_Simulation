@@ -1,0 +1,9 @@
+/home/shevi/Documents/ros2_ur_ws/build/ur_bringup/CMakeFiles/uninstall.dir
+/home/shevi/Documents/ros2_ur_ws/build/ur_bringup/CMakeFiles/ur_bringup_uninstall.dir
+/home/shevi/Documents/ros2_ur_ws/build/ur_bringup/CMakeFiles/test.dir
+/home/shevi/Documents/ros2_ur_ws/build/ur_bringup/CMakeFiles/edit_cache.dir
+/home/shevi/Documents/ros2_ur_ws/build/ur_bringup/CMakeFiles/rebuild_cache.dir
+/home/shevi/Documents/ros2_ur_ws/build/ur_bringup/CMakeFiles/list_install_components.dir
+/home/shevi/Documents/ros2_ur_ws/build/ur_bringup/CMakeFiles/install.dir
+/home/shevi/Documents/ros2_ur_ws/build/ur_bringup/CMakeFiles/install/local.dir
+/home/shevi/Documents/ros2_ur_ws/build/ur_bringup/CMakeFiles/install/strip.dir

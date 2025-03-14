@@ -1,0 +1,15 @@
+/home/shevi/Documents/ros2_ur_ws/install/ur/share/ament_index/resource_index/package_run_dependencies/ur
+/home/shevi/Documents/ros2_ur_ws/install/ur/share/ament_index/resource_index/parent_prefix_path/ur
+/home/shevi/Documents/ros2_ur_ws/install/ur/share/ur/environment/ament_prefix_path.sh
+/home/shevi/Documents/ros2_ur_ws/install/ur/share/ur/environment/ament_prefix_path.dsv
+/home/shevi/Documents/ros2_ur_ws/install/ur/share/ur/environment/path.sh
+/home/shevi/Documents/ros2_ur_ws/install/ur/share/ur/environment/path.dsv
+/home/shevi/Documents/ros2_ur_ws/install/ur/share/ur/local_setup.bash
+/home/shevi/Documents/ros2_ur_ws/install/ur/share/ur/local_setup.sh
+/home/shevi/Documents/ros2_ur_ws/install/ur/share/ur/local_setup.zsh
+/home/shevi/Documents/ros2_ur_ws/install/ur/share/ur/local_setup.dsv
+/home/shevi/Documents/ros2_ur_ws/install/ur/share/ur/package.dsv
+/home/shevi/Documents/ros2_ur_ws/install/ur/share/ament_index/resource_index/packages/ur
+/home/shevi/Documents/ros2_ur_ws/install/ur/share/ur/cmake/urConfig.cmake
+/home/shevi/Documents/ros2_ur_ws/install/ur/share/ur/cmake/urConfig-version.cmake
+/home/shevi/Documents/ros2_ur_ws/install/ur/share/ur/package.xml
