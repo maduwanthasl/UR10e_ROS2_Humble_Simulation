@@ -14,11 +14,35 @@ Ensure you have the following installed:
 
 ---
 
+## 🏗️ Step 1: Install Dependencies
+
+- First, update your system and install the required ROS2 packages:
+
+```bash
+sudo apt update && sudo apt upgrade -y
+sudo apt install -y \
+  ros-humble-gazebo-ros-pkgs \
+  ros-humble-ros2-control \
+  ros-humble-moveit \
+  ros-humble-joint-state-publisher-gui \
+  ros-humble-urdf \
+  ros-humble-xacro \
+  python3-colcon-common-extensions \
+  python3-rosdep
+```
+
+
 ## 🚀 Step 1: Create a ROS2 Workspace
 
 ```bash
 mkdir -p ~/Documents/ros2_ur_ws/src
 cd ~/Documents/ros2_ur_ws/src
+```
+
+- Initialize rosdep:
+```bash
+sudo rosdep init
+rosdep update
 ```
 
 
