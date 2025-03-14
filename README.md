@@ -30,27 +30,25 @@ sudo apt install -y \
   python3-colcon-common-extensions \
   python3-rosdep
 ```
-
-
-## 🚀 Step 1: Create a ROS2 Workspace
-
-```bash
-mkdir -p ~/Documents/ros2_ur_ws/src
-cd ~/Documents/ros2_ur_ws/src
-```
-
 - Initialize rosdep:
 ```bash
 sudo rosdep init
 rosdep update
 ```
 
+## 🚀 Step 2: Create a ROS2 Workspace
 
-## 📥 Step 2: Clone Required Repositories
+```bash
+mkdir -p ~/Documents/ros2_ur_ws/src
+cd ~/Documents/ros2_ur_ws/src
+```
+
+
+## 📥 Step 3: Clone Required Repositories
 ```bash
 git clone -b humble https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
 ```
-##  🔧 Step 3: Install Dependencies
+##  🔧 Step 4: Install Dependencies
 
 - Navigate to the workspace root and install required dependencies:
 
@@ -60,7 +58,7 @@ rosdep update
 rosdep install --from-paths src --ignore-src -r -y
 ```
 
-##  🏗️ Step 4: Build the Workspace
+##  🏗️ Step 5: Build the Workspace
 ```bash
 colcon build --cmake-args -DCMAKE_BUILD_TYPE=Release
 ```
@@ -75,7 +73,7 @@ echo "source ~/Documents/ros2_ur_ws/install/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 ```
 
-## 🚀 Step 5: Launch the Simulation
+## 🚀 Step 6: Launch the Simulation
 
 - Try launching the UR10e driver:
 ```bash
@@ -99,7 +97,7 @@ Then launch the Gazebo simulation:
 ```bash
 ros2 launch ur_gazebo ur_gazebo.launch.py ur_type:=ur10e
 ```
-## 🎛️ Step 6: Controlling the Robot
+## 🎛️ Step 7: Controlling the Robot
 
 - You should now see the UR10e arm in Gazebo. To send commands, use:
 ```bash
