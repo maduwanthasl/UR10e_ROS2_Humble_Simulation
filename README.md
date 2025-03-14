@@ -78,7 +78,7 @@ source ~/.bashrc
 
 - Try launching the UR10e driver:
 ```bash
-ros2 launch ur_bringup ur_control.launch.py ur_type:=ur10e use_sim_time:=true
+ros2 launch ur_moveit_config ur_moveit.launch.py ur_type:=ur10e use_sim_time:=true
 ```
 If you get an error about a missing robot_ip, you are trying to launch a real robot driver instead of the simulation. Use Gazebo instead.
 
